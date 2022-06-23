@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Times Own</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="timesown.css">
+    <script src="https://kit.fontawesome.com/0bef9420dc.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="breadcrumb-group">
+      <a class="breadcrumb" href="/">MB</a>
+      <i class="fa-regular fa-angle-right"></i>
+      <div class="breadcrumb">Apps</div>
+      <i class="fa-regular fa-angle-right"></i>
+      <div class="breadcrumb">Times Own</div>
+    </div>
+    <h1>Our <i class="fa-regular fa-times-square"></i> Own</h1>
+    <div class="row">
+      <div class="column">
+        <div class="tz" data-tz="Pacific/Honolulu" data-offset="-9">
+          <i class="fa-regular fa-island-tropical"></i>
+          <div class="fill">
+            <div class="tz-name">Hawaii</div>
+            <div class="tz-city">Honolulu</div>
+          </div>
+          <div class="offset">-9</div>
+        </div>
+        <div class="tz" data-tz="America/Los_Angeles" data-offset="-7">
+          <i class="fa-regular fa-bridge-suspension"></i>
+          <div class="fill">
+            <div class="tz-name">Pacific</div>
+            <div class="tz-city">San Francisco</div>
+          </div>
+          <div class="offset">-7</div>
+        </div>
+        <div class="tz active" data-tz="America/Denver" data-offset="-6">
+          <i class="fa-regular fa-mountain"></i>
+          <div class="fill">
+            <div class="tz-name">Mountain</div>
+            <div class="tz-city">Denver</div>
+          </div>
+          <div class="offset">-6</div>
+        </div>
+        <div class="tz" data-tz="America/Chicago" data-offset="-5">
+          <i class="fa-regular fa-pizza"></i>
+          <div class="fill">
+            <div class="tz-name">Central US</div>
+            <div class="tz-city">Chicago</div>
+          </div>
+          <div class="offset">-5</div>
+        </div>
+        <div class="tz" data-tz="America/New_York" data-offset="-4">
+          <i class="fa-regular fa-city"></i>
+          <div class="fill">
+            <div class="tz-name">Eastern US</div>
+            <div class="tz-city">New York</div>
+          </div>
+          <div class="offset">-4</div>
+        </div>
+        <div class="tz" data-tz="Etc/UTC" data-offset="0">
+          <i class="fa-regular fa-circle-z"></i>
+          <div class="fill">
+            <div class="tz-name">GMT</div>
+            <div class="tz-city">Universal</div>
+          </div>
+          <div class="offset">+0</div>
+        </div>
+        <div class="tz" data-tz="Europe/London" data-offset="1">
+          <i class="fa-regular fa-globe-europe"></i>
+          <div class="fill">
+            <div class="tz-name">British</div>
+            <div class="tz-city">London</div>
+          </div>
+          <div class="offset">+1</div>
+        </div>
+        <div class="tz" data-tz="Europe/Berlin" data-offset="2">
+          <i class="fa-regular fa-futbol"></i>
+          <div class="fill">
+            <div class="tz-name">Central EU</div>
+            <div class="tz-city">Barcelona</div>
+          </div>
+          <div class="offset">+2</div>
+        </div>
+        <div class="tz" data-tz="Asia/Beirut" data-offset="3">
+          <i class="fa-regular fa-church"></i>
+          <div class="fill">
+            <div class="tz-name">Eastern EU</div>
+            <div class="tz-city">Kyiv</div>
+          </div>
+          <div class="offset">+3</div>
+        </div>
+        <div class="tz">
+          <i class="fa-regular fa-ellipsis"></i>
+          Other
+        </div>
+      </div>
+      <div class="column">
+        <h2>Collaboration Ours</h2>
+        <div id="ours"></div>
+        <div id="dst"><i class="fa-solid fa-toggle-on"></i> Daylight Savings</div>
+        <div id="dst"><i class="fa-solid fa-toggle-on"></i> Extended Hours (8am – 8pm)</div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/moment"></script>
+    <script src="https://unpkg.com/moment-timezone/builds/moment-timezone-with-data.js"></script>
+    <script src="timesown.js"></script>
+  </body>
+</html>
