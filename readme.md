@@ -9,7 +9,7 @@ After starting on this, I found these tools that already exist that get the job 
 
 ## Logic
 
-Some sense-making exercises.
+Some sense-making exercises b/c I’m not going to do [this](https://stackoverflow.com/questions/50288816/determine-which-part-of-an-interval-overlaps-a-given-weekday-in-a-given-time-zon).
 
 - If Honolulu (-9) and Denver (-6) and London (+1), all DST, and in any earliest is 8am and latest (start) is 8pm, then (no overlapping working hours) while expanded hours are 12–2pm Mountain, 8–10am Hawaii, and 6–8pm British.
 - If San Francisco (-7) and Salt Lake (-6) and New York (-4) and Barcelona (+2), all DST, and in any earliest is 8am and latest (start) is 8pm, then working hours are 9–10am Mountain, 8–9am Pacific, and 5-6pm Barcelona while expanded hours are 9am–1pm Mountain, 8am–12pm Pacific, 11am–3pm Eastern, and 5–9pm Barcelona.
